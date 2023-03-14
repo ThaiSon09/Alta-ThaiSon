@@ -1,0 +1,17 @@
+.upload-listImage {
+  .wrap_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    label {
+      margin-top: 0.5rem;
+    }
+  }
+  .ant-upload-list-item-actions {
+    .ant-btn {
+      min-width: 1rem;
+      min-height: 1rem;
+    }
+  }
+}
